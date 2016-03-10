@@ -7,6 +7,10 @@
 + 茶色
 + PT
 
+###Github团队协作
+资料：   
+[使用GitHub进行团队合作](http://book.haoduoshipin.com/gitbeijing/github_flow.html)   
+[连猴子都能懂的Git入门指南](https://backlogtool.com/git-guide/tw/intro/intro1_1.html)
 
 ###团队协作的第一次任务
 
