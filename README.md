@@ -20,7 +20,7 @@
 **说明：**设计稿在所建项目的**img**文件夹里面，页面编写在**html**文件夹里面，样式文件请在**css**文件夹里面新建或者全部都写在style.css文件中。
 
 
-* **首页（index.html）**，设计稿如下图：
+* **首页（index.html）小白**，设计稿如下图：
 ![task0001_1_marked.png](img/task0001_1_marked.png)
 
 
