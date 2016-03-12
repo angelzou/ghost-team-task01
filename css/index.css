@@ -1,0 +1,81 @@
+body{
+    background-color: #EEEEEE;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #522A5C;
+}
+
+
+.content{
+    position: relative;
+    width: 980px;
+    margin: auto;
+    border: 5px yellow solid;
+}
+
+#logo{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    margin: 0;
+    text-decoration: none;
+    font: 25px simsun,sans-serif;
+    color: #FFFFFF;
+}
+
+nav{
+    height: 80px;
+}
+
+nav ul{
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #FFFFFF;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 0 0 28px;
+    font: 14px simsun,sans-serif;
+}
+
+#git-icon{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+#banner-section{
+    height: 525px;
+    background: url(../img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-article{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: block;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
