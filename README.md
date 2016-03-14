@@ -21,6 +21,7 @@
 
 ###三、demo展示
 * [blog.html(文章列表页)----我是小鬼完成](http://202.114.255.98:8080/ghost-team-task01/html/blog.html)
+* [index.html(首页)----小白完成](http://202.114.255.98:8080/ghost-team-task01/html/index.html)
 
 
 ###四、任务认领
