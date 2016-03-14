@@ -4,6 +4,7 @@
 }
 
 body{
+    min-width: 980px;
     background-color: #EEEEEE;
 }
 
@@ -55,6 +56,12 @@ nav ul li{
     position: absolute;
     right: 10px;
     bottom: 0;
+}
+
+@media (max-width: 980px) {
+    #git-icon{
+        display: none;
+    }
 }
 
 #banner-section{
