@@ -1,4 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    min-width: 980px;
     background-color: #EEEEEE;
 }
 
@@ -14,7 +20,6 @@ header{
     position: relative;
     width: 980px;
     margin: auto;
-    border: 5px yellow solid;
 }
 
 #logo{
@@ -53,6 +58,12 @@ nav ul li{
     bottom: 0;
 }
 
+@media (max-width: 980px) {
+    #git-icon{
+        display: none;
+    }
+}
+
 #banner-section{
     height: 525px;
     background: url(../img/banner-bg.jpg);
@@ -66,6 +77,115 @@ nav ul li{
     position: absolute;
     right: 0;
     bottom: 0;
+    padding : 10px 10px 30px;
+    width: 360px;
+    color: #FFFFFF;
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), color-stop(0.75, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
+}
+
+#article-wrapper{
+    height: 525px;
+}
+
+.article-title{
+    text-align: right;
+    font-size: 14px;
+    padding-bottom: 12px;
+
+}
+
+.article-content{
+    font-size: 12px;
+    line-height: 150%;
+}
+
+#img-section{
+    overflow: hidden;
+}
+
+#img-section2>.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container{
+    margin: 10px auto 0;
+    float: left;
+    width: 320px;
+    background-color: #FFFFFF;
+    padding-bottom: 100000px;
+    margin-bottom: -100000px;
+}
+
+.img-container2{
+    margin: 10px 0 0 0;
+    width: 320px;
+    background-color: #FFFFFF;
+}
+
+.img-container:not(:last-child){
+    margin-right: 10px;
+}
+
+figure{
+    margin: auto;
+}
+
+figure img{
+    display: block;
+    margin: 20px auto 0;
+    width: 300px;
+    height: 180px;
+}
+
+figcaption{
+    padding: 15px 30px 25px;
+    font-size: 12px;
+    line-height: 170%;
+}
+
+#info-section{
+    margin-top: 110px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+#info-wrapper{
+    height: 500px;
+    text-align: center;
+}
+
+.avatar{
+    margin: -50px 0 50px;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+
+.info-title{
+    font: 20px "Century Gothic",SansSerif;
+    color: #000000;
+
+}
+
+.info-detail{
+    margin: 40px auto 0;
+    width: 600px;
+    text-align: left;
+    text-indent: 2em;
+    font-size: 14px;
+    color: #000000;
+}
+
+footer{
+    width: 100%;
+    height: 395px;
+    background-color: #000000;
+}
+
+footer>nav{
+    color: #FFFFFF;
 }
 
 .clearfix:before,
